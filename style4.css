@@ -1,0 +1,19 @@
+.msg {
+    padding-bottom: 2.5%;
+    width: fit-content;
+    font-size: 80px;
+    margin: 15% auto;
+    text-align: center;
+    background-color: black;
+}
+.msg1 {
+    color: white;
+    width: 50%;
+    font-size: 30px;
+    margin: 15% auto;
+    text-align: center;
+    background-color: black;
+}
+.fa {
+    color: red;
+}

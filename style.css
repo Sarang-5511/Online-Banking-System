@@ -1,0 +1,242 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+#section1{
+    background-image: url('images/final.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   margin: 0 auto;
+    height: 770px;
+}
+#section2{
+    margin:0 auto;
+    text-align: center;
+    padding:5% 10%;
+}
+#section3{
+    background-color: rgb(0, 0, 0);
+    margin:0 auto;
+    text-align: center;
+    padding: 5% 10%;
+    color: white;
+}
+#section5{
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    text-align: center;
+    padding: 5%;
+}
+#section4{
+    padding: 1.5% 3%;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size:4.25em;
+    margin:2% auto;
+    color: white;
+    font-weight: bold;
+}
+h3{
+    margin-top: 15px;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight:700;
+}
+h4{
+    font-size: 1.75em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 4%;
+    font-size: 2.05em;
+    letter-spacing: 4px;
+}
+p{
+    font-size: 1.15em;
+}
+.button {
+    margin: 20px auto;
+    width: 180px;
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight:700;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  .button1 {
+    margin: 20px auto;
+    width: 180px;
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight:700;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .button1:hover {
+    background-color: #ec5541;
+    box-shadow: 0px 15px 20px rgb(243, 195, 181);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  button:focus{
+      outline: none;
+  }
+  .button2 {
+    margin: 20px auto;
+    width:200px;
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight:700;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .button2:hover {
+    background-color: #3584fa;
+    box-shadow: 0px 15px 20px rgba(171, 222, 235, 0.671);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+.fa{
+    font-size: 2.25em;
+    margin-bottom: 20px;
+}
+.btn{
+    letter-spacing: 3px;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+.cont1{
+    text-align: center;
+    margin: 10% auto;
+    padding: 4%;
+    width: fit-content;
+    background-color: black;
+    opacity: 0.7;
+}
+.cont2{
+    margin: 5% auto;
+}
+.navbar{
+    padding: 2%;
+}
+.navbar-brand{
+    font-size: 2.25em;
+    font-weight: bold;
+}
+.nav-item{
+    font-size: 1.05em;
+
+}
+.fa-heart{
+    font-size: 1.2em;
+}
+.copy{
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+.table{
+    margin: 5% auto;
+}
+.logo{
+    font-size: 1.05em;
+}
+@media only screen and (max-width:900px){
+    #section2{
+        margin:0 auto;
+        text-align: center;
+        padding:7% 10%;
+    }
+    #section3{
+        background-color: rgb(0, 0, 0);
+        margin:0 auto;
+        text-align: center;
+        padding: 7% 10%;
+        color: white;
+    }
+    #section5{
+        background-color: rgb(255, 255, 255);
+        margin: 0 auto;
+        text-align: center;
+        padding: 7%;
+    }
+    .navbar{
+        padding: 2%;
+    }
+    .navbar-brand{
+        font-size: 2em;
+        font-weight: bold;
+    }
+    .nav-item{
+        font-size: 1em;
+    
+    }
+    .cont1{
+        text-align: center;
+        margin: 20% auto;
+        padding: 2%;
+        width: fit-content;
+        background-color: black;
+        opacity: 0.7;
+    }
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        font-size:3.75em;
+        margin:2% auto;
+        color: white;
+        font-weight: bold;
+    }
+    h3{
+        margin-top: 15px;
+        font-size: 2em;
+        font-style: italic;
+    }
+    h5{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        margin-bottom: 7%;
+        font-size: 2em;
+        letter-spacing: 4px;
+    }
+}
